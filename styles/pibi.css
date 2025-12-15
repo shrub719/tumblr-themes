@@ -1,0 +1,95 @@
+/* All code by meee!!
+I don't think anyone can actually read this and see how awesome I am.
+:( */
+
+/* Palette */
+
+:root {
+    --blurple: #5865F2;
+    --blauve: #454FBF;
+    --blavender: #7289DA;
+    --black: #23272A;
+    --not_black: #4E5D94;
+    --grey: #DDDDDD;
+    --white: #F0F0F0;
+}
+
+/* Custom themes per tag */
+
+/* div.reblog {
+    background-image: url(https://i.ibb.co/D1yrwLh/post-reblog.png);
+}
+div.reblog.splatoon {
+    background-image: url(https://i.ibb.co/vQv8cdS/post-splatoon-reblog.png);
+}
+div.super_reblog {
+    border: 5px solid var(--blurple);
+} */
+.post-header {
+    background-image: url(https://i.ibb.co/D1yrwLh/post-reblog.png);
+}
+div.splatoon {
+    background-image: url(https://i.ibb.co/H4Mkk9Q/post-splatoon.png);
+}
+
+/* Everything else */
+
+.post-wrapper {
+    background-color: var(--blauve);
+    color: var(--grey);
+}
+.meta-item {
+    color: var(--blavender) !important;
+}
+.asker-question {
+    color: var(--black);
+}
+.poll-row {
+    background-color: var(--blurple) !important;
+}
+.poll-row p {
+    color: var(--white);
+    font-weight: 1;
+}
+.reblog-link {
+    color: var(--grey) !important;
+}
+.post-tumblelog-name {
+    color: var(--white) !important;
+}
+.asker {
+    color: var(--white) !important;
+}
+.answerer {
+    color: var(--white) !important;
+}
+.npf_color_chandler {
+    color: var(--black) !important;
+    font-weight: 600;
+}
+div.splatoon .npf_color_chandler {
+    color: var(--blurple) !important;
+    font-weight: 600;
+}
+.note-item .text {
+    background-color: var(--blavender);
+    border: none;
+}
+.asker-question {
+    color: var(--grey);
+}
+.answerer-answer {
+    color: var(--grey);
+}
+.note-item .text:after {
+    background-color: var(--blavender);
+}
+.reblog-list .post-reblog-trail-item {
+    border-top: 9px solid var(--black);
+}
+.post-header {
+    border-bottom: 9px solid var(--black);
+}
+.post-controls .control .like_button, .post-controls .control .reblog_button, .post-controls .control .share {
+    color: var(--blavender);
+}
