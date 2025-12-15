@@ -1,0 +1,78 @@
+/* palette */
+
+:root {
+    --accent: #FF0000;
+    --accent-dark: #AA0000;
+    --accent-light: #FF5555;
+    --black: #181818;
+    --grey: #DDDDDD;
+    --white: #F0F0F0;
+}
+
+
+/* reblog CRT effect */
+
+.post-header {
+    background: linear-gradient(to top, var(--black), var(--accent-dark), var(--accent), var(--accent));
+    background-size: cover;
+    background-size: 100% 4px;
+}
+
+
+/* colouring */
+
+.post-wrapper {
+    background-color: var(--accent-dark);
+    color: var(--grey);
+}
+.meta-item {
+    color: var(--accent-light) !important;
+}
+.asker-question {
+    color: var(--black);
+}
+.poll-row {
+    background-color: var(--accent) !important;
+}
+.poll-row p {
+    color: var(--white);
+    font-weight: 1;
+}
+.reblog-link {
+    color: var(--grey) !important;
+}
+.post-tumblelog-name {
+    color: var(--white) !important;
+}
+.asker {
+    color: var(--white) !important;
+}
+.answerer {
+    color: var(--white) !important;
+}
+.npf_color_chandler {
+    color: var(--black) !important;
+    font-weight: 600;
+}
+.note-item .text {
+    background-color: var(--accent-light);
+    border: none;
+}
+.asker-question {
+    color: var(--grey);
+}
+.answerer-answer {
+    color: var(--grey);
+}
+.note-item .text:after {
+    background-color: var(--accent-light);
+}
+.reblog-list .post-reblog-trail-item {
+    border-top: 9px solid var(--black);
+}
+.post-header {
+    border-bottom: 9px solid var(--black);
+}
+.post-controls .control .like_button, .post-controls .control .reblog_button, .post-controls .control .share {
+    color: var(--accent-light);
+}
