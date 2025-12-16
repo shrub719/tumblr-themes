@@ -1,12 +1,14 @@
+/* custom post colours + more by shrub719 */
+
 /* palette */
 
 :root {
-    --accent: #FF0000;
-    --accent-dark: #AA0000;
-    --accent-light: #FF5555;
+    --accent: #ff0000;
+    --accent-dark: #aa0000;
+    --accent-light: #ff5555;
     --black: #181818;
-    --grey: #DDDDDD;
-    --white: #F0F0F0;
+    --grey: #dddddd;
+    --white: #f0f0f0;
 }
 
 
