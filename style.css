@@ -11,7 +11,6 @@
     --white: #f0f0f0;
 }
 
-
 /* reblog CRT effect */
 
 .post-header {
@@ -77,4 +76,25 @@
 }
 .post-controls .control .like_button, .post-controls .control .reblog_button, .post-controls .control .share {
     color: var(--accent-light);
+}
+
+/* fix chat spacing */
+
+.npf_chat {
+    white-space: pre;
+}
+
+/* remove ugly menu bar */
+
+body > iframe:first-child { 
+    display: none !important; 
+}
+.nav-wrapper.nav-fixed {
+    top: 0 !important;
+}
+
+/* because border-radius killed my grandma, okay? */
+
+body * {
+    border-radius: 0px !important;
 }
